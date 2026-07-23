@@ -1,0 +1,143 @@
+{
+  "file_type": "answer_key_file",
+  "subject_id": "nyaya",
+  "version": "0.1.0",
+  "answer_keys": [
+    {
+      "answer_key_id": "AK-NYAY-0001",
+      "question_id": "NYAY-0001",
+      "key_type": "rubric_and_reference_answer",
+      "reference_answer": "Classical Nyaya accepts four pramanas: perception, inference, comparison, and verbal testimony. A strong answer names each and briefly explains its epistemic role.",
+      "scoring_rubric": [
+        {
+          "criterion": "Names perception",
+          "points": 2
+        },
+        {
+          "criterion": "Names inference",
+          "points": 2
+        },
+        {
+          "criterion": "Names comparison",
+          "points": 2
+        },
+        {
+          "criterion": "Names verbal testimony",
+          "points": 2
+        },
+        {
+          "criterion": "Defines the items accurately",
+          "points": 2
+        }
+      ],
+      "acceptable_variants": [
+        "Pratyaksha, anumana, upamana, and shabda are acceptable."
+      ]
+    },
+    {
+      "answer_key_id": "AK-NYAY-0002",
+      "question_id": "NYAY-0002",
+      "key_type": "rubric_and_reference_answer",
+      "reference_answer": "Nyaya perception is cognition produced by sense-object contact, not dependent on verbal report, non-errant, and determinate. A strong answer explains each condition and does not reduce perception to mere sensation.",
+      "scoring_rubric": [
+        {
+          "criterion": "Mentions sense-object contact",
+          "points": 3
+        },
+        {
+          "criterion": "Explains non-verbal or immediate character",
+          "points": 3
+        },
+        {
+          "criterion": "Explains non-deviation or non-error",
+          "points": 3
+        },
+        {
+          "criterion": "Explains determinacy",
+          "points": 3
+        }
+      ],
+      "acceptable_variants": [
+        "May distinguish nirvikalpaka and savikalpaka perception if done accurately."
+      ]
+    },
+    {
+      "answer_key_id": "AK-NYAY-0003",
+      "question_id": "NYAY-0003",
+      "key_type": "rubric_and_reference_answer",
+      "reference_answer": "Purvavat inference reasons from known cause to future or unseen effect; sheshavat reasons from observed effect to cause or remainder; samanyato drshta relies on generally observed correlation not reducible to direct causal sequence in the same way. Examples should match the type described.",
+      "scoring_rubric": [
+        {
+          "criterion": "Defines purvavat with apt example",
+          "points": 4
+        },
+        {
+          "criterion": "Defines sheshavat with apt example",
+          "points": 4
+        },
+        {
+          "criterion": "Defines samanyato drshta with apt example",
+          "points": 4
+        }
+      ],
+      "acceptable_variants": [
+        "Example traditions vary; grade conceptual fit rather than one fixed example."
+      ]
+    },
+    {
+      "answer_key_id": "AK-NYAY-0004",
+      "question_id": "NYAY-0004",
+      "key_type": "rubric_and_reference_answer",
+      "reference_answer": "A hetvabhasa is a fallacious or merely apparent reason. It may fail because it is inconclusive, contradicted, counterbalanced, unestablished, or mistimed/defeated depending on the classification used. A strong answer connects the defect to failure of vyapti or paksha application.",
+      "scoring_rubric": [
+        {
+          "criterion": "Defines hetvabhasa as apparent but defective reason",
+          "points": 3
+        },
+        {
+          "criterion": "Explains why probative appearance can fail",
+          "points": 3
+        },
+        {
+          "criterion": "Names and explains two major failures",
+          "points": 4
+        },
+        {
+          "criterion": "Connects to inference structure",
+          "points": 2
+        }
+      ],
+      "acceptable_variants": [
+        "Accept either Sanskrit labels or clear English descriptions."
+      ]
+    },
+    {
+      "answer_key_id": "AK-NYAY-0005",
+      "question_id": "NYAY-0005",
+      "key_type": "rubric_and_reference_answer",
+      "reference_answer": "For Nyaya, verbal testimony is reliable instruction from a trustworthy speaker. The speaker's competence and sincerity matter because testimony depends on an apta, someone who knows the object and communicates without deception.",
+      "scoring_rubric": [
+        {
+          "criterion": "Identifies shabda as testimony",
+          "points": 2
+        },
+        {
+          "criterion": "Mentions trustworthy or authoritative speaker",
+          "points": 3
+        },
+        {
+          "criterion": "Explains competence and sincerity",
+          "points": 3
+        },
+        {
+          "criterion": "Explains testimony as pramana",
+          "points": 2
+        }
+      ],
+      "acceptable_variants": [
+        "Apta may be translated as reliable person, expert, trustworthy speaker, or authoritative source."
+      ]
+    }
+  ]
+}
+
