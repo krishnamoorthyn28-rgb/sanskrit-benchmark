@@ -1,0 +1,79 @@
+{
+  "file_type": "question_file",
+  "subject_id": "nyaya",
+  "version": "0.1.0",
+  "student_visible": true,
+  "questions": [
+    {
+      "question_id": "NYAY-0001",
+      "subject_id": "nyaya",
+      "topic_tags": [
+        "pramana",
+        "epistemology",
+        "classification"
+      ],
+      "question_type": "short_answer",
+      "prompt": "List the standard Nyaya pramanas and briefly define each.",
+      "response_format": "Bullet list or compact prose.",
+      "max_score": 10,
+      "student_notes": "Answer from memory."
+    },
+    {
+      "question_id": "NYAY-0002",
+      "subject_id": "nyaya",
+      "topic_tags": [
+        "pratyaksha",
+        "perception",
+        "definition"
+      ],
+      "question_type": "definition_and_analysis",
+      "prompt": "Give the Nyaya definition of perception in conceptual terms. Explain the roles of sense-object contact, non-verbal immediacy, non-deviation, and determinacy.",
+      "response_format": "Prose answer, 180-260 words.",
+      "max_score": 12,
+      "student_notes": "Answer from memory."
+    },
+    {
+      "question_id": "NYAY-0003",
+      "subject_id": "nyaya",
+      "topic_tags": [
+        "anumana",
+        "inference",
+        "types"
+      ],
+      "question_type": "short_essay",
+      "prompt": "Explain the three classical types of inference often named in Nyaya: purvavat, sheshavat, and samanyato drshta. Give a simple example for each.",
+      "response_format": "Prose answer with examples.",
+      "max_score": 12,
+      "student_notes": "Answer from memory."
+    },
+    {
+      "question_id": "NYAY-0004",
+      "subject_id": "nyaya",
+      "topic_tags": [
+        "hetvabhasa",
+        "fallacy",
+        "argument"
+      ],
+      "question_type": "applied_reasoning",
+      "prompt": "What is a hetvabhasa? Explain why a reason that appears probative may fail to establish the probandum. Include at least two major kinds of failure.",
+      "response_format": "Prose answer, 180-260 words.",
+      "max_score": 12,
+      "student_notes": "Answer from memory."
+    },
+    {
+      "question_id": "NYAY-0005",
+      "subject_id": "nyaya",
+      "topic_tags": [
+        "shabda",
+        "testimony",
+        "apta"
+      ],
+      "question_type": "conceptual_short_answer",
+      "prompt": "Explain verbal testimony as a Nyaya pramana. What makes testimony reliable, and why is the speaker's status important?",
+      "response_format": "Prose answer, 120-200 words.",
+      "max_score": 10,
+      "student_notes": "Answer from memory."
+    }
+  ]
+}
+
