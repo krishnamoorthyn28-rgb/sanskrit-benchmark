@@ -1,0 +1,28 @@
+{
+  "attempt_id": "ATTEMPT-YYYYMMDD-model-slug",
+  "benchmark_id": "SANSKRIT-SPECIALIST-BENCHMARK",
+  "benchmark_version": "0.1.0",
+  "student_model": {
+    "provider": "provider-name",
+    "model": "model-name",
+    "model_version": "optional-version-or-date"
+  },
+  "attempt_conditions": {
+    "blind": true,
+    "allowed_materials": [
+      "benchmark/manifest.json",
+      "benchmark/questions"
+    ],
+    "disallowed_materials": [
+      "answer keys",
+      "reference texts",
+      "book names or source hints",
+      "web search",
+      "external tools"
+    ]
+  },
+  "started_at": "YYYY-MM-DDTHH:MM:SSZ",
+  "completed_at": "YYYY-MM-DDTHH:MM:SSZ",
+  "notes": ""
+}
+
