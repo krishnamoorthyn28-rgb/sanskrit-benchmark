@@ -1,0 +1,143 @@
+{
+  "file_type": "answer_key_file",
+  "subject_id": "vyakarana",
+  "version": "0.1.0",
+  "answer_keys": [
+    {
+      "answer_key_id": "AK-VYAK-0001",
+      "question_id": "VYAK-0001",
+      "key_type": "rubric_and_reference_answer",
+      "reference_answer": "A strong answer explains that, in grammatical discussion, a word normally indicates its own phonetic or written form when that form is under discussion. The exception is when the item is functioning as a technical designation. The answer should distinguish object-language use from metalinguistic use, give an example such as discussing the form 'go' itself, and note that technical labels override simple self-reference.",
+      "scoring_rubric": [
+        {
+          "criterion": "States the self-form principle clearly",
+          "points": 3
+        },
+        {
+          "criterion": "Explains the exception for technical-name usage",
+          "points": 3
+        },
+        {
+          "criterion": "Gives a plausible example",
+          "points": 2
+        },
+        {
+          "criterion": "Notes a limitation or interpretive boundary",
+          "points": 2
+        }
+      ],
+      "acceptable_variants": [
+        "May describe the principle using svarupa, shabda, samjna, or metalinguistic denotation."
+      ]
+    },
+    {
+      "answer_key_id": "AK-VYAK-0002",
+      "question_id": "VYAK-0002",
+      "key_type": "rubric_and_reference_answer",
+      "reference_answer": "Vrddhi is the technical set ai, au, ar, and al. Guna is the technical set e, o, ar, and al. A strong answer explains that these are not merely descriptive vowel qualities but rule-governed technical labels used to trigger substitutions in derivation.",
+      "scoring_rubric": [
+        {
+          "criterion": "Gives the vrddhi set accurately",
+          "points": 3
+        },
+        {
+          "criterion": "Gives the guna set accurately",
+          "points": 3
+        },
+        {
+          "criterion": "Explains that these are technical samjnas",
+          "points": 2
+        },
+        {
+          "criterion": "Explains their derivational relevance",
+          "points": 2
+        }
+      ],
+      "acceptable_variants": [
+        "IAST or plain transliteration is acceptable."
+      ]
+    },
+    {
+      "answer_key_id": "AK-VYAK-0003",
+      "question_id": "VYAK-0003",
+      "key_type": "rubric_and_reference_answer",
+      "reference_answer": "A pada is defined as something ending in a nominal case ending or a verbal personal ending. Sup covers nominal inflectional endings, while tin covers finite verbal endings. Thus both inflected nouns and finite verbs qualify as padas within the grammar.",
+      "scoring_rubric": [
+        {
+          "criterion": "States the suptiṅantam definition",
+          "points": 3
+        },
+        {
+          "criterion": "Explains sup as nominal ending class",
+          "points": 2
+        },
+        {
+          "criterion": "Explains tin as verbal ending class",
+          "points": 2
+        },
+        {
+          "criterion": "Applies definition to both nouns and verbs",
+          "points": 1
+        }
+      ],
+      "acceptable_variants": [
+        "Do not penalize omission of diacritics if the concept is correct."
+      ]
+    },
+    {
+      "answer_key_id": "AK-VYAK-0004",
+      "question_id": "VYAK-0004",
+      "key_type": "rubric_and_reference_answer",
+      "reference_answer": "A strong answer explains that when two rules conflict, the later rule in the Ashtadhyayi is normally applied. It should also note that this operates within a rule-governed derivational environment and must be balanced with rule domains, exceptions, asiddhatva, specificity, and other interpretive principles.",
+      "scoring_rubric": [
+        {
+          "criterion": "States that the later rule prevails in conflict",
+          "points": 4
+        },
+        {
+          "criterion": "Explains what counts as genuine conflict",
+          "points": 2
+        },
+        {
+          "criterion": "Mentions contextual constraints or exceptions",
+          "points": 3
+        },
+        {
+          "criterion": "Uses appropriate grammatical vocabulary",
+          "points": 1
+        }
+      ],
+      "acceptable_variants": [
+        "May use the term vipratisedha or paraphrase it."
+      ]
+    },
+    {
+      "answer_key_id": "AK-VYAK-0005",
+      "question_id": "VYAK-0005",
+      "key_type": "rubric_and_reference_answer",
+      "reference_answer": "The likely members are deva + indra. The final a of deva followed by initial i of indra yields e by guna sandhi, producing devendra. The visarga in devendraḥ is the nominative singular ending in the final surface form.",
+      "scoring_rubric": [
+        {
+          "criterion": "Identifies deva + indra",
+          "points": 2
+        },
+        {
+          "criterion": "Explains a + i -> e as guna sandhi",
+          "points": 3
+        },
+        {
+          "criterion": "Produces devendra as the combined stem/form",
+          "points": 2
+        },
+        {
+          "criterion": "Handles final visarga or case ending appropriately",
+          "points": 1
+        }
+      ],
+      "acceptable_variants": [
+        "Allow answers that focus on the compound without fully analyzing nominative visarga."
+      ]
+    }
+  ]
+}
+
