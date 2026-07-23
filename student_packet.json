@@ -1,0 +1,22 @@
+{
+  "packet_id": "STUDENT-PACKET-SANSKRIT-BENCHMARK-V0",
+  "purpose": "Files safe to provide to a student AI for a fully blind exam attempt.",
+  "allowed_files": [
+    "benchmark/manifest.json",
+    "benchmark/questions"
+  ],
+  "forbidden_files": [
+    "benchmark/answer_keys",
+    "benchmark/grading_map.json",
+    "reference_texts",
+    "grading"
+  ],
+  "student_instructions": [
+    "Answer each question from memory without external tools, books, search, or reference texts.",
+    "Do not ask for answer keys, source lists, passage IDs, or hidden grading criteria.",
+    "When uncertain, state uncertainty and give your best reasoned answer.",
+    "Use the original question_id exactly in every answer."
+  ],
+  "expected_output_file": "attempts/<attempt_id>/answers.json"
+}
+
