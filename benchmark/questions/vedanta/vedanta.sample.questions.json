@@ -1,0 +1,79 @@
+{
+  "file_type": "question_file",
+  "subject_id": "vedanta",
+  "version": "0.1.0",
+  "student_visible": true,
+  "questions": [
+    {
+      "question_id": "VED-0001",
+      "subject_id": "vedanta",
+      "topic_tags": [
+        "brahmajijnasa",
+        "adhikarana",
+        "introductory-sutra"
+      ],
+      "question_type": "short_essay",
+      "prompt": "Explain what is being initiated by the opening aphorism of Vedanta inquiry. Include what kind of inquiry it is and why it is not merely ritual inquiry.",
+      "response_format": "Prose answer, 150-250 words.",
+      "max_score": 10,
+      "student_notes": "Answer from memory."
+    },
+    {
+      "question_id": "VED-0002",
+      "subject_id": "vedanta",
+      "topic_tags": [
+        "brahman",
+        "cause",
+        "janmadyasya"
+      ],
+      "question_type": "definition_and_analysis",
+      "prompt": "Explain the definition of Brahman as that from which the origin, sustenance, and dissolution of the world proceed. What philosophical work does this definition do?",
+      "response_format": "Prose answer, 180-260 words.",
+      "max_score": 12,
+      "student_notes": "Answer from memory."
+    },
+    {
+      "question_id": "VED-0003",
+      "subject_id": "vedanta",
+      "topic_tags": [
+        "shastra",
+        "pramana",
+        "brahman"
+      ],
+      "question_type": "conceptual_short_answer",
+      "prompt": "Why is scripture treated as the source of knowledge for Brahman in Vedanta? Explain why ordinary perception and inference are insufficient for this object.",
+      "response_format": "Prose answer, 150-230 words.",
+      "max_score": 10,
+      "student_notes": "Answer from memory."
+    },
+    {
+      "question_id": "VED-0004",
+      "subject_id": "vedanta",
+      "topic_tags": [
+        "samanvaya",
+        "upanishads",
+        "interpretation"
+      ],
+      "question_type": "short_essay",
+      "prompt": "Explain the role of samanvaya in Vedanta interpretation. How does it support reading the Upanishadic passages as having Brahman as their central purport?",
+      "response_format": "Prose answer, 180-260 words.",
+      "max_score": 12,
+      "student_notes": "Answer from memory."
+    },
+    {
+      "question_id": "VED-0005",
+      "subject_id": "vedanta",
+      "topic_tags": [
+        "adhyaropa-apavada",
+        "method",
+        "teaching"
+      ],
+      "question_type": "applied_reasoning",
+      "prompt": "Explain the pedagogical idea sometimes called superimposition and rescission. How can provisional descriptions help communicate a truth that is later refined or negated?",
+      "response_format": "Prose answer, 180-260 words.",
+      "max_score": 12,
+      "student_notes": "Answer from memory."
+    }
+  ]
+}
+
