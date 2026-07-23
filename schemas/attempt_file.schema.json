@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "attempt_file.schema.json",
+  "title": "Sanskrit Benchmark Attempt Answers",
+  "type": "object",
+  "required": [
+    "file_type",
+    "attempt_id",
+    "benchmark_id",
+    "benchmark_version",
+    "answers"
+  ],
+  "properties": {
+    "file_type": {
+      "const": "attempt_answers"
+    },
+    "attempt_id": {
+      "type": "string"
+    },
+    "benchmark_id": {
+      "type": "string"
+    },
+    "benchmark_version": {
+      "type": "string"
+    },
+    "answers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "question_id",
+          "answer_text"
+        ],
+        "properties": {
+          "question_id": {
+            "type": "string"
+          },
+          "answer_text": {
+            "type": "string"
+          },
+          "confidence": {
+            "type": [
+              "string",
+              "number",
+              "null"
+            ]
+          },
+          "time_spent_seconds": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
+
