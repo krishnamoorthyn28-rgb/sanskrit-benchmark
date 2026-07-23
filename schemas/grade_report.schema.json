@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "grade_report.schema.json",
+  "title": "Sanskrit Benchmark Grade Report",
+  "type": "object",
+  "required": [
+    "file_type",
+    "grade_run_id",
+    "attempt_id",
+    "benchmark_id",
+    "benchmark_version",
+    "grader_model",
+    "graded_at",
+    "summary",
+    "items"
+  ],
+  "properties": {
+    "file_type": {
+      "const": "grade_report"
+    },
+    "grade_run_id": {
+      "type": "string"
+    },
+    "attempt_id": {
+      "type": "string"
+    },
+    "benchmark_id": {
+      "type": "string"
+    },
+    "benchmark_version": {
+      "type": "string"
+    },
+    "grader_model": {
+      "type": "object"
+    },
+    "graded_at": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "object",
+      "required": [
+        "total_score",
+        "max_score",
+        "percentage"
+      ],
+      "properties": {
+        "total_score": {
+          "type": "number",
+          "minimum": 0
+        },
+        "max_score": {
+          "type": "number",
+          "minimum": 0
+        },
+        "percentage": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "strengths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "weaknesses": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "question_id",
+          "score",
+          "max_score",
+          "verdict",
+          "evidence_passage_ids",
+          "grader_comments"
+        ],
+        "properties": {
+          "question_id": {
+            "type": "string"
+          },
+          "score": {
+            "type": "number",
+            "minimum": 0
+          },
+          "max_score": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "verdict": {
+            "type": "string"
+          },
+          "evidence_passage_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "answer_key_ids_used": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "grader_comments": {
+            "type": "string"
+          },
+          "error_tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
