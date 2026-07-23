@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "answer_key_file.schema.json",
+  "title": "Sanskrit Benchmark Answer Key File",
+  "type": "object",
+  "required": [
+    "file_type",
+    "subject_id",
+    "version",
+    "answer_keys"
+  ],
+  "properties": {
+    "file_type": {
+      "const": "answer_key_file"
+    },
+    "subject_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "answer_keys": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "answer_key_id",
+          "question_id",
+          "key_type",
+          "scoring_rubric"
+        ],
+        "properties": {
+          "answer_key_id": {
+            "type": "string",
+            "pattern": "^AK-[A-Z]+-[0-9]{4}$"
+          },
+          "question_id": {
+            "type": "string"
+          },
+          "key_type": {
+            "type": "string"
+          },
+          "reference_answer": {
+            "type": "string"
+          },
+          "scoring_rubric": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "criterion",
+                "points"
+              ],
+              "properties": {
+                "criterion": {
+                  "type": "string"
+                },
+                "points": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "acceptable_variants": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
+
