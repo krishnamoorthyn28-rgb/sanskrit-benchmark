@@ -1,0 +1,147 @@
+{
+  "file_type": "answer_key_file",
+  "subject_id": "vedanta",
+  "version": "0.1.0",
+  "answer_keys": [
+    {
+      "answer_key_id": "AK-VED-0001",
+      "question_id": "VED-0001",
+      "key_type": "rubric_and_reference_answer",
+      "reference_answer": "The opening aphorism initiates inquiry into Brahman. A strong answer explains the force of 'now, therefore' as marking eligibility or sequence after prior preparation and distinguishes Brahman inquiry from ritual inquiry because the object is ultimate reality taught by Upanishadic revelation.",
+      "scoring_rubric": [
+        {
+          "criterion": "Identifies inquiry into Brahman",
+          "points": 3
+        },
+        {
+          "criterion": "Explains the force of the opening transition",
+          "points": 2
+        },
+        {
+          "criterion": "Distinguishes from ritual inquiry",
+          "points": 3
+        },
+        {
+          "criterion": "Mentions Upanishadic or scriptural grounding",
+          "points": 2
+        }
+      ],
+      "acceptable_variants": [
+        "Different Vedanta schools may frame eligibility differently; grade conceptual accuracy."
+      ]
+    },
+    {
+      "answer_key_id": "AK-VED-0002",
+      "question_id": "VED-0002",
+      "key_type": "rubric_and_reference_answer",
+      "reference_answer": "Brahman is indicated as that from which the world's origin, continuation, and dissolution proceed. The definition functions as a tatastha-lakshana or identifying mark, distinguishing Brahman from finite causes and setting up inquiry into the ultimate source.",
+      "scoring_rubric": [
+        {
+          "criterion": "Mentions origin, sustenance, and dissolution",
+          "points": 4
+        },
+        {
+          "criterion": "Identifies Brahman as ultimate cause/source",
+          "points": 3
+        },
+        {
+          "criterion": "Explains philosophical function of the definition",
+          "points": 3
+        },
+        {
+          "criterion": "Avoids crude material-cause-only reduction",
+          "points": 2
+        }
+      ],
+      "acceptable_variants": [
+        "May discuss efficient and material causality according to a Vedanta school."
+      ]
+    },
+    {
+      "answer_key_id": "AK-VED-0003",
+      "question_id": "VED-0003",
+      "key_type": "rubric_and_reference_answer",
+      "reference_answer": "Scripture is treated as the source for Brahman because Brahman is not an ordinary object of sensory perception or unaided inference. Inference may clarify or defend, but the positive knowledge of Brahman is grounded in the Upanishadic teaching.",
+      "scoring_rubric": [
+        {
+          "criterion": "States scripture as source of Brahman-knowledge",
+          "points": 3
+        },
+        {
+          "criterion": "Explains limits of perception",
+          "points": 2
+        },
+        {
+          "criterion": "Explains limits of inference",
+          "points": 2
+        },
+        {
+          "criterion": "Distinguishes revelation from irrational assertion",
+          "points": 2
+        },
+        {
+          "criterion": "Uses pramana vocabulary accurately",
+          "points": 1
+        }
+      ],
+      "acceptable_variants": [
+        "School-specific accounts of scripture may vary."
+      ]
+    },
+    {
+      "answer_key_id": "AK-VED-0004",
+      "question_id": "VED-0004",
+      "key_type": "rubric_and_reference_answer",
+      "reference_answer": "Samanvaya is coherent coordination of scriptural passages around a central purport. In Vedanta it supports the claim that apparently diverse Upanishadic statements ultimately teach Brahman rather than merely ritual, subordinate deities, or isolated meditations.",
+      "scoring_rubric": [
+        {
+          "criterion": "Defines samanvaya as coordination or consistent purport",
+          "points": 4
+        },
+        {
+          "criterion": "Connects Upanishadic passages to Brahman",
+          "points": 4
+        },
+        {
+          "criterion": "Explains contrast with non-Brahman readings",
+          "points": 2
+        },
+        {
+          "criterion": "Gives a coherent interpretive account",
+          "points": 2
+        }
+      ],
+      "acceptable_variants": [
+        "May use tatparya, purport, samanvaya, or synthesis vocabulary."
+      ]
+    },
+    {
+      "answer_key_id": "AK-VED-0005",
+      "question_id": "VED-0005",
+      "key_type": "rubric_and_reference_answer",
+      "reference_answer": "Superimposition and rescission describes a teaching strategy in which provisional descriptions are first used to orient the student and are later negated or refined. A good answer explains that this does not endorse falsehood as final doctrine; it uses pedagogical steps to remove misunderstanding.",
+      "scoring_rubric": [
+        {
+          "criterion": "Explains provisional superimposition",
+          "points": 3
+        },
+        {
+          "criterion": "Explains later negation or refinement",
+          "points": 3
+        },
+        {
+          "criterion": "Connects method to teaching non-ordinary truth",
+          "points": 3
+        },
+        {
+          "criterion": "Avoids treating the provisional level as final",
+          "points": 3
+        }
+      ],
+      "acceptable_variants": [
+        "May use adhyaropa-apavada terminology or a clear English paraphrase."
+      ]
+    }
+  ]
+}
+
