@@ -1,0 +1,232 @@
+{
+  "file_type": "grading_map",
+  "version": "0.1.0",
+  "visibility": "grader_only",
+  "description": "Private map linking student-visible question IDs to optional answer keys, authoritative passages, and grading policy.",
+  "items": [
+    {
+      "question_id": "VYAK-0001",
+      "answer_key_ids": [
+        "AK-VYAK-0001"
+      ],
+      "reference_passage_ids": [
+        "REF-VYAK-ASHTADHYAYI:S1.1.68"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 10
+    },
+    {
+      "question_id": "VYAK-0002",
+      "answer_key_ids": [
+        "AK-VYAK-0002"
+      ],
+      "reference_passage_ids": [
+        "REF-VYAK-ASHTADHYAYI:S1.1.1",
+        "REF-VYAK-ASHTADHYAYI:S1.1.2"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 10
+    },
+    {
+      "question_id": "VYAK-0003",
+      "answer_key_ids": [
+        "AK-VYAK-0003"
+      ],
+      "reference_passage_ids": [
+        "REF-VYAK-ASHTADHYAYI:S1.4.14"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 8
+    },
+    {
+      "question_id": "VYAK-0004",
+      "answer_key_ids": [
+        "AK-VYAK-0004"
+      ],
+      "reference_passage_ids": [
+        "REF-VYAK-ASHTADHYAYI:S1.4.2"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 10
+    },
+    {
+      "question_id": "VYAK-0005",
+      "answer_key_ids": [
+        "AK-VYAK-0005"
+      ],
+      "reference_passage_ids": [
+        "REF-VYAK-ASHTADHYAYI:S6.1.87"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 8
+    },
+    {
+      "question_id": "NYAY-0001",
+      "answer_key_ids": [
+        "AK-NYAY-0001"
+      ],
+      "reference_passage_ids": [
+        "REF-NYAY-NYAYASUTRA:S1.1.3"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 10
+    },
+    {
+      "question_id": "NYAY-0002",
+      "answer_key_ids": [
+        "AK-NYAY-0002"
+      ],
+      "reference_passage_ids": [
+        "REF-NYAY-NYAYASUTRA:S1.1.4"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 12
+    },
+    {
+      "question_id": "NYAY-0003",
+      "answer_key_ids": [
+        "AK-NYAY-0003"
+      ],
+      "reference_passage_ids": [
+        "REF-NYAY-NYAYASUTRA:S1.1.5"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 12
+    },
+    {
+      "question_id": "NYAY-0004",
+      "answer_key_ids": [
+        "AK-NYAY-0004"
+      ],
+      "reference_passage_ids": [
+        "REF-NYAY-NYAYASUTRA:S1.1.1",
+        "REF-NYAY-NYAYASUTRA:GRADER-NOTE-HETVABHASA"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 12
+    },
+    {
+      "question_id": "NYAY-0005",
+      "answer_key_ids": [
+        "AK-NYAY-0005"
+      ],
+      "reference_passage_ids": [
+        "REF-NYAY-NYAYASUTRA:S1.1.7"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 10
+    },
+    {
+      "question_id": "MIM-0001",
+      "answer_key_ids": [
+        "AK-MIM-0001"
+      ],
+      "reference_passage_ids": [
+        "REF-MIM-MIMAMSASUTRA:S1.1.2"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 10
+    },
+    {
+      "question_id": "MIM-0002",
+      "answer_key_ids": [
+        "AK-MIM-0002"
+      ],
+      "reference_passage_ids": [
+        "REF-MIM-MIMAMSASUTRA:S1.1.1",
+        "REF-MIM-MIMAMSASUTRA:S1.1.2"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 10
+    },
+    {
+      "question_id": "MIM-0003",
+      "answer_key_ids": [
+        "AK-MIM-0003"
+      ],
+      "reference_passage_ids": [
+        "REF-MIM-MIMAMSASUTRA:GRADER-NOTE-VIDHI-ARTHAVADA"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 12
+    },
+    {
+      "question_id": "MIM-0004",
+      "answer_key_ids": [
+        "AK-MIM-0004"
+      ],
+      "reference_passage_ids": [
+        "REF-MIM-MIMAMSASUTRA:GRADER-NOTE-APURVA"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 12
+    },
+    {
+      "question_id": "MIM-0005",
+      "answer_key_ids": [
+        "AK-MIM-0005"
+      ],
+      "reference_passage_ids": [
+        "REF-MIM-MIMAMSASUTRA:GRADER-NOTE-HERMENEUTICS"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 12
+    },
+    {
+      "question_id": "VED-0001",
+      "answer_key_ids": [
+        "AK-VED-0001"
+      ],
+      "reference_passage_ids": [
+        "REF-VED-BRAHMASUTRA:S1.1.1"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 10
+    },
+    {
+      "question_id": "VED-0002",
+      "answer_key_ids": [
+        "AK-VED-0002"
+      ],
+      "reference_passage_ids": [
+        "REF-VED-BRAHMASUTRA:S1.1.2"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 12
+    },
+    {
+      "question_id": "VED-0003",
+      "answer_key_ids": [
+        "AK-VED-0003"
+      ],
+      "reference_passage_ids": [
+        "REF-VED-BRAHMASUTRA:S1.1.3"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 10
+    },
+    {
+      "question_id": "VED-0004",
+      "answer_key_ids": [
+        "AK-VED-0004"
+      ],
+      "reference_passage_ids": [
+        "REF-VED-BRAHMASUTRA:S1.1.4"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 12
+    },
+    {
+      "question_id": "VED-0005",
+      "answer_key_ids": [
+        "AK-VED-0005"
+      ],
+      "reference_passage_ids": [
+        "REF-VED-BRAHMASUTRA:GRADER-NOTE-ADHYAROPA-APAVADA"
+      ],
+      "grading_mode": "answer_key_plus_reference_text",
+      "max_score": 12
+    }
+  ]
+}
+
