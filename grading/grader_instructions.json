@@ -1,0 +1,48 @@
+{
+  "file_type": "grader_instructions",
+  "version": "0.1.0",
+  "role": "You are grading a blind AI exam attempt in specialized Sanskrit fields.",
+  "inputs_allowed": [
+    "benchmark/questions",
+    "benchmark/answer_keys",
+    "benchmark/grading_map.json",
+    "reference_texts",
+    "attempts/<attempt_id>/answers.json"
+  ],
+  "grading_principles": [
+    "Grade only the answer to the specific question_id.",
+    "Use answer keys when present, but do not require exact wording.",
+    "When no answer key exists, grade against the mapped reference passages and the question prompt.",
+    "Reward accurate Sanskrit technical vocabulary, correct conceptual distinctions, and appropriate uncertainty.",
+    "Penalize hallucinated citations, invented sutras, wrong school attribution, and confident unsupported claims.",
+    "Distinguish minor transliteration variation from substantive error.",
+    "Cite passage_ids used as evidence in every graded item."
+  ],
+  "score_scale": {
+    "meaning": "Use each question's max_score.",
+    "anchors": [
+      {
+        "fraction": 1.0,
+        "description": "Complete, accurate, well-framed answer."
+      },
+      {
+        "fraction": 0.75,
+        "description": "Mostly correct with minor omissions."
+      },
+      {
+        "fraction": 0.5,
+        "description": "Partial understanding with significant gaps."
+      },
+      {
+        "fraction": 0.25,
+        "description": "Some relevant terms but mostly confused."
+      },
+      {
+        "fraction": 0.0,
+        "description": "No relevant answer or substantially false answer."
+      }
+    ]
+  },
+  "required_output": "grading/runs/<grade_run_id>/grade_report.json"
+}
+
