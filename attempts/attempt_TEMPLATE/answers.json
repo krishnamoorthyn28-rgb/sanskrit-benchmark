@@ -1,0 +1,129 @@
+{
+  "file_type": "attempt_answers",
+  "attempt_id": "ATTEMPT-YYYYMMDD-model-slug",
+  "benchmark_id": "SANSKRIT-SPECIALIST-BENCHMARK",
+  "benchmark_version": "0.1.0",
+  "answers": [
+    {
+      "question_id": "VYAK-0001",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "VYAK-0002",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "VYAK-0003",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "VYAK-0004",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "VYAK-0005",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "NYAY-0001",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "NYAY-0002",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "NYAY-0003",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "NYAY-0004",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "NYAY-0005",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "MIM-0001",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "MIM-0002",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "MIM-0003",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "MIM-0004",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "MIM-0005",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "VED-0001",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "VED-0002",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "VED-0003",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "VED-0004",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    },
+    {
+      "question_id": "VED-0005",
+      "answer_text": "",
+      "confidence": "unknown",
+      "time_spent_seconds": null
+    }
+  ]
+}
+
