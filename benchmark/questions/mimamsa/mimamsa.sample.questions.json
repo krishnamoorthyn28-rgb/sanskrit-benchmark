@@ -1,0 +1,79 @@
+{
+  "file_type": "question_file",
+  "subject_id": "mimamsa",
+  "version": "0.1.0",
+  "student_visible": true,
+  "questions": [
+    {
+      "question_id": "MIM-0001",
+      "subject_id": "mimamsa",
+      "topic_tags": [
+        "dharma",
+        "codana",
+        "hermeneutics"
+      ],
+      "question_type": "short_essay",
+      "prompt": "Explain the Mimamsa idea that dharma is known through injunctive Vedic indication. What does this imply about ordinary perception and inference?",
+      "response_format": "Prose answer, 150-250 words.",
+      "max_score": 10,
+      "student_notes": "Answer from memory."
+    },
+    {
+      "question_id": "MIM-0002",
+      "subject_id": "mimamsa",
+      "topic_tags": [
+        "dharmajijnasa",
+        "opening-sutra",
+        "method"
+      ],
+      "question_type": "conceptual_short_answer",
+      "prompt": "What kind of inquiry is initiated by 'athato dharmajijnasa'? Explain why the object of inquiry is not simply empirical action.",
+      "response_format": "Prose answer, 120-200 words.",
+      "max_score": 10,
+      "student_notes": "Answer from memory."
+    },
+    {
+      "question_id": "MIM-0003",
+      "subject_id": "mimamsa",
+      "topic_tags": [
+        "vidhi",
+        "arthavada",
+        "vakya"
+      ],
+      "question_type": "classification",
+      "prompt": "Distinguish vidhi from arthavada in Mimamsa interpretation. How can an explanatory or praise passage contribute to the force of an injunction?",
+      "response_format": "Prose answer, 180-260 words.",
+      "max_score": 12,
+      "student_notes": "Answer from memory."
+    },
+    {
+      "question_id": "MIM-0004",
+      "subject_id": "mimamsa",
+      "topic_tags": [
+        "apurva",
+        "ritual",
+        "causality"
+      ],
+      "question_type": "short_essay",
+      "prompt": "Explain the role of apurva in accounting for the unseen connection between ritual action and later result. Why is such a notion needed in ritual hermeneutics?",
+      "response_format": "Prose answer, 180-260 words.",
+      "max_score": 12,
+      "student_notes": "Answer from memory."
+    },
+    {
+      "question_id": "MIM-0005",
+      "subject_id": "mimamsa",
+      "topic_tags": [
+        "sabda",
+        "sentence-meaning",
+        "hermeneutic-tools"
+      ],
+      "question_type": "applied_reasoning",
+      "prompt": "Given several Vedic sentences that appear to conflict about a ritual detail, what kinds of interpretive considerations would a Mimamsaka use before declaring a real contradiction?",
+      "response_format": "Prose answer, 180-260 words.",
+      "max_score": 12,
+      "student_notes": "Answer from memory."
+    }
+  ]
+}
+
