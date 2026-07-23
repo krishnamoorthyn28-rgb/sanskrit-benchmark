@@ -1,0 +1,53 @@
+{
+  "benchmark_id": "SANSKRIT-SPECIALIST-BENCHMARK",
+  "version": "0.1.0",
+  "title": "AI Sanskrit Specialist Benchmark",
+  "description": "A v0.1 pilot benchmark for testing AI ability in specialized Sanskrit domains using blind exam attempts and source-grounded grading.",
+  "created_date": "2026-07-22",
+  "languages": [
+    "sa",
+    "en"
+  ],
+  "pilot_statistics": {
+    "question_count": 20,
+    "answer_key_count": 20,
+    "reference_passage_count": 22,
+    "max_score_total": 214
+  },
+  "subjects": [
+    {
+      "subject_id": "vyakarana",
+      "display_name": "Vyakarana",
+      "question_prefix": "VYAK"
+    },
+    {
+      "subject_id": "nyaya",
+      "display_name": "Nyaya",
+      "question_prefix": "NYAY"
+    },
+    {
+      "subject_id": "mimamsa",
+      "display_name": "Mimamsa",
+      "question_prefix": "MIM"
+    },
+    {
+      "subject_id": "vedanta",
+      "display_name": "Vedanta",
+      "question_prefix": "VED"
+    }
+  ],
+  "question_files": [
+    "benchmark/questions/vyakarana/vyakarana.sample.questions.json",
+    "benchmark/questions/nyaya/nyaya.sample.questions.json",
+    "benchmark/questions/mimamsa/mimamsa.sample.questions.json",
+    "benchmark/questions/vedanta/vedanta.sample.questions.json"
+  ],
+  "schema_files": {
+    "question_file": "schemas/question_file.schema.json",
+    "answer_key_file": "schemas/answer_key_file.schema.json",
+    "reference_text_file": "schemas/reference_text_file.schema.json",
+    "attempt_file": "schemas/attempt_file.schema.json",
+    "grading_map": "schemas/grading_map.schema.json",
+    "grade_report": "schemas/grade_report.schema.json"
+  }
+}
