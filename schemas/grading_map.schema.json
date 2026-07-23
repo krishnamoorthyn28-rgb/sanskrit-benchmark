@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "grading_map.schema.json",
+  "title": "Sanskrit Benchmark Grading Map",
+  "type": "object",
+  "required": [
+    "file_type",
+    "version",
+    "visibility",
+    "items"
+  ],
+  "properties": {
+    "file_type": {
+      "const": "grading_map"
+    },
+    "version": {
+      "type": "string"
+    },
+    "visibility": {
+      "const": "grader_only"
+    },
+    "description": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "question_id",
+          "answer_key_ids",
+          "reference_passage_ids",
+          "grading_mode",
+          "max_score"
+        ],
+        "properties": {
+          "question_id": {
+            "type": "string"
+          },
+          "answer_key_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reference_passage_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "grading_mode": {
+            "enum": [
+              "answer_key_only",
+              "reference_text_only",
+              "answer_key_plus_reference_text"
+            ]
+          },
+          "max_score": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
+
