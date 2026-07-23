@@ -1,0 +1,47 @@
+{
+  "file_type": "reference_text_file",
+  "reference_text_id": "REF-VED-BRAHMASUTRA",
+  "subject_id": "vedanta",
+  "title": "Brahma Sutra",
+  "author_or_tradition": "Badarayana tradition",
+  "language": "sa",
+  "edition_note": "Pilot passages and grader notes only. Verify against the edition and commentary tradition you choose before public release.",
+  "passages": [
+    {
+      "passage_id": "REF-VED-BRAHMASUTRA:S1.1.1",
+      "locator": "1.1.1",
+      "text": "athāto brahmajijñāsā",
+      "translation_or_note": "Now, therefore, inquiry into Brahman.",
+      "grader_use": "Use for grading answers about the beginning of Vedanta inquiry and its contrast with ritual inquiry."
+    },
+    {
+      "passage_id": "REF-VED-BRAHMASUTRA:S1.1.2",
+      "locator": "1.1.2",
+      "text": "janmādy asya yataḥ",
+      "translation_or_note": "Brahman is that from which the origin and so on of this world proceed.",
+      "grader_use": "Use for grading Brahman-as-cause definitions."
+    },
+    {
+      "passage_id": "REF-VED-BRAHMASUTRA:S1.1.3",
+      "locator": "1.1.3",
+      "text": "śāstrayonitvāt",
+      "translation_or_note": "Because scripture is the source or means of knowledge.",
+      "grader_use": "Use for grading questions about scripture as pramana for Brahman."
+    },
+    {
+      "passage_id": "REF-VED-BRAHMASUTRA:S1.1.4",
+      "locator": "1.1.4",
+      "text": "tat tu samanvayāt",
+      "translation_or_note": "But that is known from the coherent purport of scripture.",
+      "grader_use": "Use for grading samanvaya and Upanishadic purport questions."
+    },
+    {
+      "passage_id": "REF-VED-BRAHMASUTRA:GRADER-NOTE-ADHYAROPA-APAVADA",
+      "locator": "grader-note-adhyaropa-apavada",
+      "text": "Some Vedanta pedagogy uses provisional attribution followed by negation or refinement to guide the student beyond mistaken literalization of preliminary descriptions.",
+      "translation_or_note": "This is a compact grader note, not a Brahma Sutra quotation.",
+      "grader_use": "Use for grading questions on superimposition and rescission as teaching method."
+    }
+  ]
+}
+
