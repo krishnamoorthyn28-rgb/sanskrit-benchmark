@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "reference_text_file.schema.json",
+  "title": "Sanskrit Benchmark Reference Text File",
+  "type": "object",
+  "required": [
+    "file_type",
+    "reference_text_id",
+    "subject_id",
+    "title",
+    "language",
+    "passages"
+  ],
+  "properties": {
+    "file_type": {
+      "const": "reference_text_file"
+    },
+    "reference_text_id": {
+      "type": "string",
+      "pattern": "^REF-[A-Z]+-[A-Z0-9-]+$"
+    },
+    "subject_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "author_or_tradition": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "edition_note": {
+      "type": "string"
+    },
+    "passages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "passage_id",
+          "locator",
+          "text"
+        ],
+        "properties": {
+          "passage_id": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "translation_or_note": {
+            "type": "string"
+          },
+          "grader_use": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
+
