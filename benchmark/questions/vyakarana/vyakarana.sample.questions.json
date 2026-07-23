@@ -1,0 +1,79 @@
+{
+  "file_type": "question_file",
+  "subject_id": "vyakarana",
+  "version": "0.1.0",
+  "student_visible": true,
+  "questions": [
+    {
+      "question_id": "VYAK-0001",
+      "subject_id": "vyakarana",
+      "topic_tags": [
+        "samjna",
+        "shabda",
+        "metalinguistic-reference"
+      ],
+      "question_type": "short_essay",
+      "prompt": "Explain the principle that a word denotes its own form unless it has a technical-name function. Give one example and one limitation of the principle.",
+      "response_format": "Prose answer, 150-250 words.",
+      "max_score": 10,
+      "student_notes": "Answer from memory. Do not cite books or external sources unless already known."
+    },
+    {
+      "question_id": "VYAK-0002",
+      "subject_id": "vyakarana",
+      "topic_tags": [
+        "samjna",
+        "guna",
+        "vrddhi"
+      ],
+      "question_type": "conceptual_short_answer",
+      "prompt": "Define guna and vrddhi as technical vowel grades in Paninian grammar. Give the vowel sets included under each term and explain why these definitions matter in derivation.",
+      "response_format": "Compact prose or table.",
+      "max_score": 10,
+      "student_notes": "Answer from memory."
+    },
+    {
+      "question_id": "VYAK-0003",
+      "subject_id": "vyakarana",
+      "topic_tags": [
+        "pada",
+        "sup",
+        "ting"
+      ],
+      "question_type": "definition_and_application",
+      "prompt": "What is a pada according to the standard Paninian definition? Explain how the definition covers both nominal and verbal forms.",
+      "response_format": "Prose answer, 100-180 words.",
+      "max_score": 8,
+      "student_notes": "Answer from memory."
+    },
+    {
+      "question_id": "VYAK-0004",
+      "subject_id": "vyakarana",
+      "topic_tags": [
+        "paribhasa",
+        "rule-conflict",
+        "vipratisedha"
+      ],
+      "question_type": "applied_reasoning",
+      "prompt": "In Paninian derivation, how is conflict between two applicable rules usually resolved by the later-rule principle? Explain the principle and one reason it cannot be applied mechanically without context.",
+      "response_format": "Prose answer, 150-220 words.",
+      "max_score": 10,
+      "student_notes": "Answer from memory."
+    },
+    {
+      "question_id": "VYAK-0005",
+      "subject_id": "vyakarana",
+      "topic_tags": [
+        "sandhi",
+        "derivation",
+        "guna"
+      ],
+      "question_type": "derivation",
+      "prompt": "Analyze the sandhi in 'devendraḥ'. Identify the likely underlying members and explain the phonological operation.",
+      "response_format": "Stepwise derivation with final form.",
+      "max_score": 8,
+      "student_notes": "Answer from memory."
+    }
+  ]
+}
+
