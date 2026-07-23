@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "question_file.schema.json",
+  "title": "Sanskrit Benchmark Question File",
+  "type": "object",
+  "required": [
+    "file_type",
+    "subject_id",
+    "version",
+    "student_visible",
+    "questions"
+  ],
+  "properties": {
+    "file_type": {
+      "const": "question_file"
+    },
+    "subject_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "student_visible": {
+      "const": true
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "question_id",
+          "subject_id",
+          "question_type",
+          "prompt",
+          "response_format",
+          "max_score"
+        ],
+        "properties": {
+          "question_id": {
+            "type": "string",
+            "pattern": "^[A-Z]+-[0-9]{4}$"
+          },
+          "subject_id": {
+            "type": "string"
+          },
+          "topic_tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "question_type": {
+            "type": "string"
+          },
+          "prompt": {
+            "type": "string"
+          },
+          "response_format": {
+            "type": "string"
+          },
+          "max_score": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "student_notes": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
+
