@@ -1,0 +1,21 @@
+{
+  "file_type": "grade_report",
+  "grade_run_id": "GRADE-YYYYMMDD-grader-model-slug",
+  "attempt_id": "ATTEMPT-YYYYMMDD-model-slug",
+  "benchmark_id": "SANSKRIT-SPECIALIST-BENCHMARK",
+  "benchmark_version": "0.1.0",
+  "grader_model": {
+    "provider": "provider-name",
+    "model": "model-name",
+    "model_version": "optional-version-or-date"
+  },
+  "graded_at": "YYYY-MM-DDTHH:MM:SSZ",
+  "summary": {
+    "total_score": 0,
+    "max_score": 214,
+    "percentage": 0,
+    "strengths": [],
+    "weaknesses": []
+  },
+  "items": []
+}
