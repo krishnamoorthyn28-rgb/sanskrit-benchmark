@@ -1,0 +1,54 @@
+{
+  "file_type": "reference_text_file",
+  "reference_text_id": "REF-NYAY-NYAYASUTRA",
+  "subject_id": "nyaya",
+  "title": "Nyaya Sutra",
+  "author_or_tradition": "Gautama / Akshapada tradition",
+  "language": "sa",
+  "edition_note": "Pilot passages and grader notes only. Verify against the edition and commentary tradition you choose before public release.",
+  "passages": [
+    {
+      "passage_id": "REF-NYAY-NYAYASUTRA:S1.1.1",
+      "locator": "1.1.1",
+      "text": "pramāṇaprameyasaṃśayaprayojanadṛṣṭāntasiddhāntāvayavatarkanirṇayavādajalpavitaṇḍāhetvābhāsacchalajātinigrahasthānānāṃ tattvajñānān niḥśreyasādhigamaḥ",
+      "translation_or_note": "Liberation is attained through true knowledge of the Nyaya categories, including pramana, prameya, doubt, purpose, example, doctrine, syllogistic members, reasoning, ascertainment, debate forms, fallacies, quibbles, rejoinders, and points of defeat.",
+      "grader_use": "Use for broad Nyaya category questions and for locating hetvabhasa within the Nyaya project."
+    },
+    {
+      "passage_id": "REF-NYAY-NYAYASUTRA:S1.1.3",
+      "locator": "1.1.3",
+      "text": "pratyakṣānumānopamānaśabdāḥ pramāṇāni",
+      "translation_or_note": "Perception, inference, comparison, and verbal testimony are the pramanas.",
+      "grader_use": "Use for grading questions about the standard Nyaya pramana list."
+    },
+    {
+      "passage_id": "REF-NYAY-NYAYASUTRA:S1.1.4",
+      "locator": "1.1.4",
+      "text": "indriyārthasannikarṣotpannaṃ jñānam avyapadeśyam avyabhicāri vyavasāyātmakaṃ pratyakṣam",
+      "translation_or_note": "Perception is cognition produced by sense-object contact, non-verbal, non-deviating, and determinate.",
+      "grader_use": "Use for grading definitions of perception."
+    },
+    {
+      "passage_id": "REF-NYAY-NYAYASUTRA:S1.1.5",
+      "locator": "1.1.5",
+      "text": "atha tatpūrvakaṃ trividham anumānaṃ pūrvavac cheṣavat sāmānyato dṛṣṭaṃ ca",
+      "translation_or_note": "Inference, preceded by perception, is of three kinds: purvavat, sheshavat, and samanyato drshta.",
+      "grader_use": "Use for grading inference-type questions."
+    },
+    {
+      "passage_id": "REF-NYAY-NYAYASUTRA:S1.1.7",
+      "locator": "1.1.7",
+      "text": "āptopadeśaḥ śabdaḥ",
+      "translation_or_note": "Verbal testimony is the instruction of a trustworthy person.",
+      "grader_use": "Use for grading shabda and apta questions."
+    },
+    {
+      "passage_id": "REF-NYAY-NYAYASUTRA:GRADER-NOTE-HETVABHASA",
+      "locator": "grader-note-hetvabhasa",
+      "text": "Hetvabhasa is treated in Nyaya as a reason that appears to be probative but is defective in relation to the probandum, the subject, or the required pervasion.",
+      "translation_or_note": "This is a compact grader note, not a sutra quotation.",
+      "grader_use": "Use for grading conceptual explanations of inferential fallacy."
+    }
+  ]
+}
+
