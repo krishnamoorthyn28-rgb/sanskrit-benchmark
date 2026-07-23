@@ -1,0 +1,54 @@
+{
+  "file_type": "reference_text_file",
+  "reference_text_id": "REF-VYAK-ASHTADHYAYI",
+  "subject_id": "vyakarana",
+  "title": "Ashtadhyayi",
+  "author_or_tradition": "Panini",
+  "language": "sa",
+  "edition_note": "Pilot passages only. Verify against the edition you choose before using this as a public benchmark release.",
+  "passages": [
+    {
+      "passage_id": "REF-VYAK-ASHTADHYAYI:S1.1.1",
+      "locator": "1.1.1",
+      "text": "vṛddhir ādaic",
+      "translation_or_note": "The vowels ā, ai, and au receive the technical designation vrddhi.",
+      "grader_use": "Use for the technical definition of vrddhi."
+    },
+    {
+      "passage_id": "REF-VYAK-ASHTADHYAYI:S1.1.2",
+      "locator": "1.1.2",
+      "text": "adeṅ guṇaḥ",
+      "translation_or_note": "The vowels a, e, and o receive the technical designation guna in the relevant grammatical interpretation.",
+      "grader_use": "Use for the technical definition of guna."
+    },
+    {
+      "passage_id": "REF-VYAK-ASHTADHYAYI:S1.1.68",
+      "locator": "1.1.68",
+      "text": "svaṃ rūpaṃ śabdasyāśabdasaṃjñā",
+      "translation_or_note": "A word denotes its own form, except where it functions as a non-word technical designation.",
+      "grader_use": "Use for questions about metalinguistic denotation and the samjna exception."
+    },
+    {
+      "passage_id": "REF-VYAK-ASHTADHYAYI:S1.4.2",
+      "locator": "1.4.2",
+      "text": "vipratiṣedhe paraṃ kāryam",
+      "translation_or_note": "When there is conflict between applicable rules, the later rule is to be applied.",
+      "grader_use": "Use for grading explanations of rule conflict."
+    },
+    {
+      "passage_id": "REF-VYAK-ASHTADHYAYI:S1.4.14",
+      "locator": "1.4.14",
+      "text": "suptiṅantaṃ padam",
+      "translation_or_note": "That which ends in a sup or tin ending is called a pada.",
+      "grader_use": "Use for grading pada definition questions."
+    },
+    {
+      "passage_id": "REF-VYAK-ASHTADHYAYI:S6.1.87",
+      "locator": "6.1.87",
+      "text": "ādguṇaḥ",
+      "translation_or_note": "After a or ā, a following simple vowel may produce the corresponding guna vowel in the relevant environment.",
+      "grader_use": "Use for simple guna sandhi derivations such as deva + indra -> devendra."
+    }
+  ]
+}
+
